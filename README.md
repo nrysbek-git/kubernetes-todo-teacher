@@ -7,6 +7,17 @@ Kubernetes. Пользователь создаёт, отмечает и уда�
 > Это готовое reference solution для преподавателя. Студентам выдаётся отдельный
 > repository `kubernetes-todo-starter` без Docker и Kubernetes implementation.
 
+## Как выглядит приложение
+
+![Kubernetes Todo Lab](docs/screenshots/kubernetes-todo-dashboard.png)
+
+Приложение имеет адаптивный интерфейс для создания, выполнения и удаления задач.
+Все изменения сохраняются в PostgreSQL.
+
+### FastAPI documentation
+
+![Kubernetes Todo Lab FastAPI documentation](docs/screenshots/fastapi-docs.png)
+
 ## Стек
 
 - React 19, Vite 8 и Nginx — frontend;

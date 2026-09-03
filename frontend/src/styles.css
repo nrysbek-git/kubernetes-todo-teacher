@@ -23,4 +23,6 @@ li button { margin-left: auto; order: 3; padding: 7px 10px; color: #ffb6b6; back
 @media (max-width: 540px) {
   main { margin: 24px auto; padding: 22px; }
   form { flex-direction: column; }
+  li { flex-wrap: wrap; }
+  li button { flex-basis: 100%; margin-left: 0; }
 }
