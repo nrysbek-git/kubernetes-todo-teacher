@@ -1,0 +1,8 @@
+Kubernetes Todo Lab is an educational derivative of
+fif911/kubernetes-front-end-backend-example.
+
+Original project: https://github.com/fif911/kubernetes-front-end-backend-example
+Original license: Apache License 2.0
+
+The application packaging, Kubernetes resources, documentation, dependency
+pins, health checks and security defaults were modified for this training lab.

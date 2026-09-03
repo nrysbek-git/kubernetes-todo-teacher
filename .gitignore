@@ -1,0 +1,12 @@
+.env
+!.env.example
+node_modules/
+build/
+dist/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+*.log
+kubernetes/secret.yml

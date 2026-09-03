@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: todo-viewer
+  namespace: kubernetes-todo
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: workload-viewer
+  namespace: kubernetes-todo
+rules:
+  - apiGroups: [""]
+    resources: ["pods", "services", "events"]
+    verbs: ["get", "list", "watch"]
+  - apiGroups: ["apps"]
+    resources: ["deployments", "replicasets"]
+    verbs: ["get", "list", "watch"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: todo-viewer
+  namespace: kubernetes-todo
+subjects:
+  - kind: ServiceAccount
+    name: todo-viewer
+    namespace: kubernetes-todo
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: workload-viewer

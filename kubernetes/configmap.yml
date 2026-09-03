@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: todo-config
+  namespace: kubernetes-todo
+data:
+  PROJECT_NAME: Kubernetes Todo Lab
+  POSTGRES_SERVER: database
+  POSTGRES_USER: todo
+  POSTGRES_DB: todo
+  BACKEND_CORS_ORIGINS: '["http://localhost:8081"]'
+  REACT_APP_BACKEND_BASE_URI: /api/items
