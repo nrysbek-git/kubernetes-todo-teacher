@@ -1,4 +1,4 @@
-# Kubernetes Todo Lab — преподавательское решение
+# Kubernetes Todo — преподавательское решение
 
 [Русский](README.md) | [English](README_EN.md)
 
@@ -7,7 +7,7 @@ Kubernetes. Пользователь создаёт, отмечает и уда�
 в PostgreSQL.
 
 > Это готовое reference solution для преподавателя. Студентам выдаётся отдельный
-> repository `kubernetes-todo-starter` без Docker и Kubernetes implementation.
+> repository `kubernetes-todo-student` без Docker и Kubernetes implementation.
 
 ## Как выглядит приложение
 

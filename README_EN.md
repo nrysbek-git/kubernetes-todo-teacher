@@ -1,4 +1,4 @@
-# Kubernetes Todo Lab — Instructor Reference
+# Kubernetes Todo — Teacher Reference
 
 [Русский](README.md) | [English](README_EN.md)
 
@@ -7,7 +7,7 @@ to a local Kubernetes cluster. Users can create, complete, and delete tasks, and
 PostgreSQL provides persistent storage.
 
 > This is the instructor reference solution. Students should receive the
-> separate `kubernetes-todo-starter` repository without ready-made Docker or
+> separate `kubernetes-todo-student` repository without ready-made Docker or
 > Kubernetes implementation files.
 
 ## Application preview
@@ -130,4 +130,3 @@ The application is derived from
 under the Apache License 2.0. Packaging, manifests, health checks, security
 defaults, dependencies, UI, and documentation were updated for this lab. See
 `LICENSE`, `NOTICE`, and `MODIFICATIONS.md`.
-

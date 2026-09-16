@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   name: kubernetes-todo
   labels:
-    app.kubernetes.io/part-of: kubernetes-todo-lab
+    app.kubernetes.io/part-of: kubernetes-todo-teacher
