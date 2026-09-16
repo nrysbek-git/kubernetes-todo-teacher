@@ -31,7 +31,7 @@ def main_page_welcome():
         </head>
         <body>
             <h1>Hello. This is main page of back-end</h1>
-            <p>You can find sources in the <a href="https://github.com/fif911/k8app">GitHub repo</a></p>
+            <p>You can find sources in the <a href="https://github.com/fif911/kubernetes-front-end-backend-example">GitHub repo</a></p>
             <p><a href="./api/docs">See interactive documentation here</a></p>
             <p>API to play with is /items:
 
